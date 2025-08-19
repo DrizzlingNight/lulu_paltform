@@ -1,0 +1,12 @@
+@import '../utils/variables';
+
+.v-list-item {
+  &:hover {
+    background: #498779;
+
+    .v-list-item__title, span {
+      color: $text_active !important;
+      font-weight: 600 !important;
+    }
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "public": {
+    "name": "Lulu Market",
+    "theme": "lulumarket",
+    "languages": [
+      "zh-TW",
+      "en-EN",
+      "kr-KR",
+      "vi-VI"
+    ],
+    "sms": {
+      "switch": true,
+      "timeLimit": 60,
+      "countLimit": 5,
+      "expireTime": 300
+    },
+    "localTest": true,
+    "appName": "favicon.ico",
+    "appText": "Lulu Market",
+    "firebaseConfig" : {
+      "apiKey": "AIzaSyB78HM-KfER0vP8-RZAfBWfDT6H1I2yptY",
+      "authDomain": "lulumarket-f997f.firebaseapp.com",
+      "projectId": "lulumarket-f997f",
+      "storageBucket": "lulumarket-f997f.appspot.com",
+      "messagingSenderId": "427077801298",
+      "appId": "1:427077801298:web:ab9228c2d80af3c3ac168b",
+      "measurementId": "G-K02ZEJR1XW"
+    },
+    "gtagId" : "UA-228749230-1",
+    "topBar": {
+      "showWaterDrop": true,
+      "menus": [
+        {
+          "title": "topbar.home",
+          "routeName": "home"
+        },
+        {
+          "title": "topbar.game",
+          "routeName": "game",
+          "icon": "mdi-google-controller"
+        },
+        {
+          "title": "topbar.blindBox",
+          "routeName": "mystery_boxes",
+          "isHot": true
+        },
+        {
+          "title": "topbar.invitation",
+          "routeName": "invitation"
+        },
+        {
+          "title": "topbar.pledge",
+          "routeName": "pledge"
+        },
+        {
+          "title": "topbar.mine",
+          "routeName": "mine"
+        }
+      ],
+      "dropDownMenus": [
+        {
+          "title": "topbar.document",
+          "href": {
+            "zh-TW": "https://doccn.lulu.market/",
+            "en-EN": "https://docen.lulu.market/",
+            "vi-VI": "https://docvn.lulu.market/",
+            "kr-KR": "https://docen.lulu.market/"
+          }
+        },
+        {
+          "title": "topbar.whitePaper",
+          "href": {
+            "zh-TW": "https://doccn.lulu.market/whitepaper/whitepaper-chinese-version ",
+            "en-EN": "https://docen.lulu.market/whitepaper/whitepaper-english-version",
+            "vi-VI": "https://docvn.lulu.market/whitepaper/whitepaper-vietnam-version ",
+            "kr-KR": "https://docen.lulu.market/whitepaper/whitepaper-english-version"
+          }
+        },
+        {
+          "title": "topbar.community",
+          "routeName": "goScroll"
+        },
+        {
+          "title": "topbar.auditReport",
+          "href": {
+            "zh-TW": "/whitepaper/Luck_audit.pdf",
+            "en-EN": "/whitepaper/Luck_audit.pdf",
+            "vi-VI": "/whitepaper/Luck_audit.pdf",
+            "kr-KR": "/whitepaper/Luck_audit.pdf"
+          }
+        }
+      ]
+    },
+    "display": {
+      "home": {
+        "showPlayDialog": true,
+        "showStartGameBtn": false,
+        "banner": true,
+        "intro": true,
+        "ranking": true,
+        "landNFT": true,
+        "gameRules": true,
+        "facilitiesNFT": false,
+        "statistics": false,
+        "salesRank": false,
+        "invite": true,
+        "roadmap": true,
+        "subscribe": true,
+        "partners": true,
+        "showBanner": [
+          5,
+          1,
+          4,
+          3
+        ],
+        "showRanking": {
+          "showMint": false,
+          "showGrape": false,
+          "showInvite": false,
+          "showWinStreak" : true
+        }
+      },
+      "invitation": {
+        "activity": true
+      },
+      "my": {
+        "assets": true,
+        "land": true,
+        "task": true,
+        "storehouse": true,
+        "balanceRecord": true,
+        "accountInfo": true,
+        "accountSetting": true
+      }
+    },
+    "loadGameIfLogin" : true
+  },
+  "private": {
+    "runBinanceMarketStreams": false,
+    "bscapi": {
+      "hosts": [
+        "https://bsc-dataseed.binance.org/",
+        "https://bsc-dataseed1.defibit.io/",
+        "https://bsc-dataseed1.ninicoin.io/",
+        "https://bsc-dataseed2.defibit.io/",
+        "https://bsc-dataseed3.defibit.io/",
+        "https://bsc-dataseed4.defibit.io/",
+        "https://bsc-dataseed2.ninicoin.io/",
+        "https://bsc-dataseed3.ninicoin.io/",
+        "https://bsc-dataseed4.ninicoin.io/",
+        "https://bsc-dataseed1.binance.org/",
+        "https://bsc-dataseed2.binance.org/",
+        "https://bsc-dataseed3.binance.org/",
+        "https://bsc-dataseed4.binance.org/"
+      ]
+    },
+    "gameCDNHost": "https://s3-ap-southeast-2.amazonaws.com",
+    "gameCDNPrefix": "/game-sit.bap.bet",
+    "awsS3Bucket": "game-sit.bap.bet",
+    "awsS3Region": "ap-southeast-2",
+    "inkpay": {
+      "url": "https://ink.marbleio.tech",
+      "key": "03117ab38f1173f17115bacc000b0c0e6257823dea7597d9e572b9efc6938230a3",
+      "secret": "c8465bd6b8d0d74601ac34318eda1f37ae026ca9fd84c3b2b19ddbc4c4e7ca54",
+      "withdrawKey": "03117ab38f1173f17115bacc000b0c0e6257823dea7597d9e572b9efc6938230a3",
+      "withdrawSecret": "c8465bd6b8d0d74601ac34318eda1f37ae026ca9fd84c3b2b19ddbc4c4e7ca54",
+      "sigType": "ecdsa"
+    },
+    "defaultBalance": 0,
+    "maxWithdrawLimit": 50000,
+    "smsBao": {
+      "host": "http://api.smsbao.com",
+      "username": "testusdt",
+      "password": "7ef6156c32f427d713144f67e2ef14d2"
+    },
+    "smsVoice": {
+      "voiceSms": {
+        "api": "http://api.nxcloud.com/api/voiceSms/versend",
+        "appKey": "KGilGTRH",
+        "secretkey": "NS5lIZv6",
+        "show_phone": "0000",
+        "open_country": [
+          "84"
+        ]
+      }
+    },
+    "email": {
+      "service": "smtp.gmail.com",
+      "user": "support@beepal.io",
+      "password": "vcaparisfnlmespi",
+      "port": 587,
+      "subject": "LULU MARKET",
+      "mail_url": "smtp://support@beepal.io:vcaparisfnlmespi@smtp.gmail.com:587"
+    },
+    "bountyTask": {
+      "failedAutoPublish": true,
+      "publisher": "system_task",
+      "rules": {
+        "rent": {
+          "timeLimit": 24,
+          "mode": 0,
+          "level": 11,
+          "seed": "primary_grape",
+          "seedsCount": 10,
+          "rewards": [
+            {
+              "type": "token",
+              "token": "LUCK",
+              "amount": 10
+            }
+          ]
+        },
+        "job": {
+        }
+      }
+    },
+    "realInfoHeaders": [
+      {
+        "ipHeader": "CF-Connecting-IP",
+        "countryHeader": "CF-IPCountry"
+      },
+      {
+        "ipHeader": "x-real-ip",
+        "countryHeader": null
+      }
+    ],
+    "routines": {
+      "InkpayRoutine": false,
+      "NftRoutine": false,
+      "MarketRoutine": false,
+      "BlockRoutine": false,
+      "BlindBoxRoutine": false,
+      "StakeRoutine": false,
+      "ComputeDistributionRoutine1_BTCUSDT": false,
+      "ComputeDistributionRoutine3_BTCUSDT": false,
+      "ComputeDistributionRoutine5_BTCUSDT": false,
+      "ComputeDistributionRoutine10_BTCUSDT": false,
+      "ComputeDistributionRoutine30_BTCUSDT": false,
+      "ComputeDistributionRoutine1_ETHUSDT": false,
+      "ComputeDistributionRoutine3_ETHUSDT": false,
+      "ComputeDistributionRoutine5_ETHUSDT": false,
+      "ComputeDistributionRoutine10_ETHUSDT": false,
+      "ComputeDistributionRoutine30_ETHUSDT": false,
+      "GenerateMarketDistribution": false,
+      "RemoveOldMarketPrice": false,
+      "BountyTaskRoutine": false,
+      "StatisticsRoutine": false
+    }
+  }
+}

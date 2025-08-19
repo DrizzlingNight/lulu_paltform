@@ -1,0 +1,33 @@
+// 網站最基本設定，font-family等...
+@import './../utils/variables';
+@import '../../../scss/theme';
+
+// 網頁背景色
+html, body, #app {
+  background: $bg !important;
+  min-height: 100vh;
+
+
+  // scroll bar 樣式
+  // chrome
+  ::-webkit-scrollbar {
+    width: 5px !important;
+    height: 5px !important;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: $commonBackground;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: $mainLightColor;
+    border-radius: 2.5px;
+  }
+
+  // firefox
+  * {
+    scrollbar-color: $commonBackground; /* thumb and track color */
+    scrollbar-width: thin;
+  }
+  
+}

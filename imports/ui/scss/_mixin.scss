@@ -1,0 +1,100 @@
+@mixin phone {
+  @media (min-width: 320px) and (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin ipad {
+  @media (min-width: 768px) and (max-width: 1199px) {
+    @content;
+  }
+}
+
+@mixin pc {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+@mixin pc-ipad {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin phone_hide {
+  @media (min-width: 320px) and (max-width: 767px) {
+    display: none;
+  }
+}
+.phone_hide {
+  @media (min-width: 320px) and (max-width: 767px) {
+    display: none !important;
+  }
+}
+
+@mixin pc-ipad_hide {
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+.pc-ipad_hide {
+  @media (min-width: 768px) {
+    display: none !important;
+  }
+}
+
+@mixin my-sm_hide {
+  @media (min-width: 320px) and (max-width: 1059px) {
+    display: none;
+  }
+}
+.my-sm_hide {
+  @media (min-width: 320px) and (max-width: 1059px) {
+    display: none !important;
+  }
+}
+
+@mixin my-md_hide {
+  @media (min-width: 1060px) {
+    display: none;
+  }
+}
+.my-md_hide {
+  @media (min-width: 1060px) {
+    display: none !important;
+  }
+}
+
+// 文字自動換行
+@mixin wordWrap {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+// 文字過長3個點表示
+@mixin ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+// 左側省略
+@mixin ellipsis-left {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  direction: rtl;
+  text-align: left;
+}
+
+// common
+
+@mixin common-btn-title {
+  @media (min-width: 960px) {
+      font-size: 18px;
+      font-weight: bold;    
+  }
+  @media (max-width: 960px) {
+      font-size: 14px;
+      font-weight: bold;    
+  } 
+}

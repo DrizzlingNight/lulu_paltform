@@ -1,0 +1,73 @@
+
+@import './theme_custom.scss';
+// $theme-name: $name;
+
+// sea story
+// $mainLightColor: #37F4FF;
+// $topBarBackground: linear-gradient(267.5deg, #2E798D 0%, #014456 100.82%);
+// $commonBackground: linear-gradient(267.5deg, #2E798D 0%, #014456 100.82%);
+// $commonBackground2: linear-gradient(267.5deg, #2E798D 0%, #014456 100.82%);
+// $commonBackground3: linear-gradient(267.5deg, #014456 0%, #014456 100.82%);
+// $commonBackgroundColor: linear-gradient(267.5deg, #014456 0%, #014456 100.82%);
+// $lightBackground: rgba(87, 170, 192, 0.3);
+// $lightBackground2: rgba(246, 130, 55, 0.5);
+// $lightBackground50: rgba(87, 170, 192, 0.5);
+// $btnColor: linear-gradient(180deg, #2E798D 0%, #51CBD2 145.65%);
+// $btnColor2: linear-gradient(180deg, #F68237 81.04%, #FF6400 96.15%);
+// $btnDisableColor: linear-gradient(142deg, #727272 0%, #CACACA 100%);
+// $borderColor: #37F4FF;
+// $commonBorder: 1px solid #37F4FF;
+// $commonContentColor: #57AAC0;
+// $commonContentColor30: #57AAC030;
+// $commonBoxShadow: 0px 5px 8px 1px rgba(0, 37, 19, 0.503391);
+
+
+
+// lulu market
+// $mainLightColor: #00FFCA;
+// $topBarBackground: linear-gradient(267.5deg, #09211a 0%, #09211a 100%);
+// $commonBackground: #071816;
+// $commonBackground2: #00322E;
+// $commonBackground3: #071816;
+// $commonBackgroundColor: #00322E;
+// $lightBackground: #00322E;
+// $lightBackground2: #00322E;
+// $lightBackground50: #00322E50;
+// $btnColor: linear-gradient(142.1deg, #007254 -41.15%, #16C9A2 94.16%);
+// $btnColor2: linear-gradient(142.1deg, #007254 -41.15%, #16C9A2 94.16%);
+// $btnDisableColor: linear-gradient(142deg, #727272 0%, #CACACA 100%);
+// $borderColor: #00FFCA;
+// $commonBorder: 1px solid #00FFCA;
+// $commonContentColor: #00FFCA;
+// $commonContentColor30: #00FFCA30;
+// $commonBoxShadow: 0px 5px 8px 1px rgba(0, 37, 19, 0.503391);
+
+
+
+$bgcolor-01: #12142c;
+$bgcolor-02: #1e223e;
+$bgcolor-05: #3a4165;
+$bgcolor-06: #262b43;
+
+$bgColor-05: rgba(232, 232, 232, 0.2);
+$bgColor-45: #1c1e37;
+$color-19: #ffc455;
+
+
+//sidebar
+$sidebar-wrap-bg:$bgcolor-02;
+$sidebar-avatar-bg:$bgcolor-02;
+$sidebar-router-active-hover:$bgcolor-05;
+
+
+//sidebar
+$sidebar-bg:#12142c; // (TheAdminSidebar 后台管理系统左侧菜单栏的背景颜色)
+$sidebar-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.45); // (TheAdminSidebar 后台管理系统左侧菜单栏的阴影)
+$sidebar-avatar-item-bg: $bgColor-45; // (TheAdminSidebar 后台管理系统左侧菜单栏的头像处的背景色)
+$sidebar-wrap-bg: $bgColor-45; // (TheAdminSidebar 后台管理系统左侧菜单栏的头像下面的列表的背景色)
+$sidebar-router-bottom-bd: $bgcolor-05; // (TheAdminSidebar 后台管理系统左侧菜单栏最底部的router-item边框色)
+$sidebar-router-hover: $bgcolor-06; // (TheAdminSidebar 后台管理系统左侧菜单栏的router-item悬浮背景色)
+$sidebar-router-active: $bgcolor-05; // (TheAdminSidebar 后台管理系统左侧菜单栏的router-item选中背景色)
+// $sidebar-router-active-img: '/static/img/selected_'+$theme-name+'.png'; // (TheAdminSidebar 后台管理系统左侧菜单栏的router-item选中后左侧显示图片 bapbet没有该图片)
+$sidebar-router-dropdown-color: $color-19; // (TheAdminSidebar 后台管理系统左侧菜单栏的可下拉router-item文体颜色)
+$sidebar-router-bd:$bgcolor-01; // (TheAdminSidebar 后台管理系统左侧菜单栏可下拉router-item的上边框颜色)

@@ -1,0 +1,42 @@
+<svg width="132" height="132" viewBox="0 0 132 132" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_5217_71243)">
+<path d="M121.5 60C121.5 90.6518 96.6518 115.5 66 115.5C35.3482 115.5 10.5 90.6518 10.5 60C10.5 29.3482 35.3482 4.5 66 4.5C96.6518 4.5 121.5 29.3482 121.5 60Z" fill="#00221A" stroke="#00FFCA"/>
+<path d="M92.8754 95.2435L99.6862 75.3699H69.8159V35.0258H75.6537L77.5997 25.1895H39.9456L41.8916 35.0258H47.8267V75.3699H38.9727L45.297 95.2435H92.8754Z" fill="#4EFFAD" stroke="#00C473" stroke-width="0.5"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M39.9453 25.1895L47.8264 35.0258H41.8913L39.9453 25.1895Z" fill="#10F58D"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M47.8264 35.0258L39.9453 25.1895H59.5685L47.8264 35.0258Z" fill="#51FBB6"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M59.5683 25.1895L47.8262 35.0258L56.9639 41.2252L59.5683 25.1895Z" fill="#99FFD3"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M59.5684 25.1895H69.329L69.8154 35.0258L59.5684 25.1895Z" fill="#4FF5B4"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M69.3301 25.1895H77.6003L69.8166 35.0258L69.3301 25.1895Z" fill="#50FFCE"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M69.8164 35.0258H75.6542L77.6002 25.1895" fill="#1DEEA7"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M47.8262 35.0254V54.7073L56.9639 41.2249L47.8262 35.0254Z" fill="#50FFC6"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M69.8163 35.0254V42.627L56.9648 41.2249L69.8163 35.0254Z" fill="#21FDBB"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M47.8267 75.3701H38.9727L57.8634 83.9454L47.8267 75.3701Z" fill="#54FFDB"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M38.9727 75.3701L45.297 95.2437L57.8634 83.9454L38.9727 75.3701Z" fill="#17E0A0"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M56.9648 41.2256L69.8163 60.2168V42.6277L56.9648 41.2256Z" fill="#1FEDC0"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M57.8633 83.9454L69.8158 75.3701L80.6165 95.2437L57.8633 83.9454Z" fill="#3FFFC3"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M57.8633 83.9453L45.2969 95.2436H80.6165L57.8633 83.9453Z" fill="#09C88A"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M56.9639 41.2256L47.8262 54.708L69.8154 60.2168L56.9639 41.2256Z" fill="#10E4A8"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M59.5692 25.1895L56.9648 41.2252L69.8163 35.0258L59.5692 25.1895Z" fill="#4FFFC2"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M47.8262 54.708L47.8262 75.3702L57.8628 69.1667L47.8262 54.708Z" fill="#22E9B0"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M47.8262 54.708L69.8154 60.2168L57.8628 69.1667L47.8262 54.708Z" fill="#6AFECA"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M69.8158 60.2168V75.3702L57.8633 69.1667L69.8158 60.2168Z" fill="#27F197"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M57.8628 69.166V83.9448L47.8262 75.3695L57.8628 69.166Z" fill="#18DDA4"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M57.8633 69.166L69.8158 75.3695L57.8633 83.9448V69.166Z" fill="#1BD48C"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M69.8164 75.3701L86.068 82.0199L80.6171 95.2437L69.8164 75.3701Z" fill="#41F1B0"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M69.3301 75.3701H99.6868L86.0682 82.0199L69.3301 75.3701Z" fill="#87FFEC"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M99.687 75.3701L92.8762 95.2437L86.0684 82.0199L99.687 75.3701Z" fill="#38E4AD"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M92.8775 95.2433L86.0681 82.0195L80.6172 95.2433H92.8775Z" fill="#24D9A4"/>
+</g>
+<defs>
+<filter id="filter0_d_5217_71243" x="0" y="0" width="132" height="132" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.275 0 0 0 0 0.185733 0 0 0 0.8 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5217_71243"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5217_71243" result="shape"/>
+</filter>
+</defs>
+</svg>

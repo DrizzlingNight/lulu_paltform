@@ -1,0 +1,25 @@
+{
+  "language": {
+    "zh-TW": "繁體中文"
+  },
+  "topbar": {
+    "signIn": "登录",
+    "signUp": "注册",
+    "inputEmail": "请输入邮箱",
+    "inputPhone": "请输入手机",
+    "inputPassword": "请输入密码",
+    "email": "邮箱",
+    "phone": "手机",
+    "password": "密码",
+    "emailSignIn": "邮箱登录",
+    "phoneSignIn": "手机登录",
+    "emailSignUp": "邮箱注册",
+    "phoneSignUp": "手机注册",
+    "emailRequired": "请输入邮箱",
+    "emailValid": "邮箱格式错误",
+    "phoneRequired": "请输入电话",
+    "phoneValid": "电话格式错误",
+    "passwordRequired": "请输入密码",
+    "passwordValid": "密码必须6-18位之间"
+  }
+}

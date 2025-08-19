@@ -1,0 +1,156 @@
+{
+  "public": {
+    "name": "Sea Story",
+    "theme" : "seastory",
+    "languages": [
+      "zh-TW",
+      "en-EN",
+      "kr-KR",
+      "vi-VI"
+    ],
+    "sms": {
+      "switch": true,
+      "timeLimit": 60,
+      "countLimit": 5,
+      "expireTime": 300
+    },
+    "localTest": true,
+    "appName": "favicon.ico",
+    "appText": "Sea Story",
+    "ranking" : {
+      "showGrape" : false,
+      "showInvite" : false
+    },
+    "firebaseConfig" : {
+      "apiKey": "AIzaSyBCazm8XAnMY9FNTKo4afYSiyR2e5ScjTI",
+      "authDomain": "lulutest-8e759.firebaseapp.com",
+      "projectId": "lulutest-8e759",
+      "storageBucket": "lulutest-8e759.appspot.com",
+      "messagingSenderId": "808548083551",
+      "appId": "1:808548083551:web:e8e3e91fac4c4f14eff8ea",
+      "measurementId": "G-SMBC6MRV4N"
+    },
+    "topBar" : {
+      "showWaterDrop" : false,
+      "menus" : [
+        {
+          "title" : "topbar.home",
+          "routeName" : "home"
+        },
+        {
+          "title" : "topbar.game",
+          "routeName" : "game",
+          "icon" : "mdi-google-controller"
+        },
+        {
+          "title" : "topbar.invitation",
+          "routeName" : "invitation"
+        },
+        {
+          "title" : "topbar.community",
+          "routeName" : "goScroll"
+        }
+        
+      ],
+      "dropDownMenus" : [
+      ]
+    },
+    "display" : {
+      "home" : {
+        "showPlayDialog" : false,
+        "showStartGameBtn" : true,
+        "banner" : true,
+        "intro" : false,
+        "ranking" : false,
+        "landNFT" : false,
+        "gameRules" : false,
+        "facilitiesNFT" : false,
+        "statistics" : false,
+        "salesRank" : false,
+        "invite" : false,
+        "roadmap" : false,
+        "subscribe" : false,
+        "partners" : false,
+        "showBanner" : [1]
+      },
+      "invitation" : {
+        "activity" : false
+      },
+      "my" : {
+        "assets" : true,
+        "land" : false,
+        "order" : false,
+        "storehouse" : false,
+        "balanceRecord" : true,
+        "accountInfo": true,
+        "accountSetting": true
+      }
+    }
+  },
+  "private": {
+    "runBinanceMarketStreams": false,
+    "bscapi": {
+      "hosts": [
+        "https://bsc-dataseed.binance.org/",
+        "https://bsc-dataseed1.defibit.io/",
+        "https://bsc-dataseed1.ninicoin.io/",
+        "https://bsc-dataseed2.defibit.io/",
+        "https://bsc-dataseed3.defibit.io/",
+        "https://bsc-dataseed4.defibit.io/",
+        "https://bsc-dataseed2.ninicoin.io/",
+        "https://bsc-dataseed3.ninicoin.io/",
+        "https://bsc-dataseed4.ninicoin.io/",
+        "https://bsc-dataseed1.binance.org/",
+        "https://bsc-dataseed2.binance.org/",
+        "https://bsc-dataseed3.binance.org/",
+        "https://bsc-dataseed4.binance.org/"
+      ]
+    },
+    "gameCDNHost": "https://s3-ap-southeast-2.amazonaws.com",
+    "gameCDNPrefix": "/game-sit.bap.bet",
+    "awsS3Bucket": "game-sit.bap.bet",
+    "awsS3Region": "ap-southeast-2",
+    "inkpay": {
+      "url": "https://ink.marbleio.tech",
+      "key": "03117ab38f1173f17115bacc000b0c0e6257823dea7597d9e572b9efc6938230a3",
+      "secret": "c8465bd6b8d0d74601ac34318eda1f37ae026ca9fd84c3b2b19ddbc4c4e7ca54",
+      "withdrawKey": "03117ab38f1173f17115bacc000b0c0e6257823dea7597d9e572b9efc6938230a3",
+      "withdrawSecret": "c8465bd6b8d0d74601ac34318eda1f37ae026ca9fd84c3b2b19ddbc4c4e7ca54",
+      "sigType": "ecdsa"
+    },
+    "defaultBalance": 0,
+    "maxWithdrawLimit": 50000,
+    "smsBao": {
+      "host": "http://api.smsbao.com",
+      "username": "testusdt",
+      "password": "7ef6156c32f427d713144f67e2ef14d2"
+    },
+    "email": {
+      "service": "smtp.gmail.com",
+      "user": "support@beepal.io",
+      "password": "vcaparisfnlmespi",
+      "port": 587,
+      "subject": "Sea Story",
+      "mail_url": "smtp://support@beepal.io:vcaparisfnlmespi@smtp.gmail.com:587"
+    },
+    "realInfoHeaders": [{
+        "ipHeader": "CF-Connecting-IP",
+        "countryHeader": "CF-IPCountry"
+      },
+      {
+        "ipHeader": "x-real-ip",
+        "countryHeader": null
+      }
+    ],
+    "routines": {
+      "InkpayRoutine": false,
+      "NftRoutine": false,
+      "MarketRoutine": false,
+      "BlockRoutine": false,
+      "BlindBoxRoutine": false,
+      "StakeRoutine" : false,
+      "ComputeDistributionRoutine": false,
+      "GenerateMarketDistribution": false
+    }
+  }
+}

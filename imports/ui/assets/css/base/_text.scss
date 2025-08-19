@@ -1,0 +1,68 @@
+@import '../utils/variables';
+// 文字樣式設定
+
+
+// 置入英文字型
+
+// 標準
+@font-face {
+  font-family: 'EN-regular';
+  src: url('/static/ui/assets/fonts/Averta.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+// 普通粗
+@font-face {
+  font-family: 'EN-semibold';
+  src: url('static/ui/assets/fonts/Averta-Semibold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+// 很粗 (不可以色色)
+@font-face {
+  font-family: 'EN-bold';
+  src: url('/static/ui/assets/fonts/Averta-Bold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+// ******** 文字樣式設定 ********
+
+h1 {
+  font-family: 'EN-regular';
+  font-size: $font_h1;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: 'EN-regular';
+  font-size: $font_h2;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+html, body, p, a, span, #app {
+  font-family: 'EN-regular';
+  font-size: $font_basic;
+  // color: #ffffff;
+  font-weight: 400;
+}
+
+// ******** 手機版字級配置 ********
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: $font_h1_mobile;
+  }
+
+  h2 {
+    font-size: $font_h2_mobile;
+  }
+
+  html, body, p, a, span, #app {
+    font-size: $font_basic_mobile;
+  }
+}

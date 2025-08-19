@@ -1,0 +1,14 @@
+node_modules/
+package-lock.json
+.idea/
+.development/dy.json
+.cache/
+.DS_Store
+.vscode/
+
+
+/public/static/game/
+/public/game/*
+/public/apidoc/
+
+theme_custom.scss

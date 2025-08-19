@@ -1,0 +1,41 @@
+$themes: (
+  red: (
+    font-color: red,
+  ),
+  green: (
+    font-color: green,
+  ),
+  blue: (
+    font-color: blue,
+  ),
+);
+
+@mixin themify($themes: $themes) {
+  @each $themename, $map in $themes {
+    .theme-#{$themename} & {
+      $thememap: () !global;
+      @each $key, $value in $map {
+        $thememap: map-merge(
+          $thememap,
+          (
+            $key: $value,
+          )
+        ) !global;
+      }
+
+      @content;
+
+      $thememap: null !global;
+    }
+  }
+}
+
+@function themed($key) {
+  @return map-get($thememap, $key);
+}
+
+.app-container {
+  @include themify($themes) {
+    color: themed('font-color');
+  }
+}

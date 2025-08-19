@@ -1,0 +1,22 @@
+@import '../utils/variables';
+@import '../../../scss/theme';
+// 按鈕組件相關設定
+
+.theme--light.v-btn.v-btn--has-bg {
+  // 移除 vuetify 按鈕自動 uppercase 的 特性
+  text-transform: none;
+
+  // 這些設定都是 按鈕default屬性，要覆蓋的話在各自頁面中直接用 !important 去壓就好
+  background: $btnColor; 
+  height: 46px;
+  color: #ffffff;
+  letter-spacing: normal !important;
+  
+  .v-btn__content {
+    font-weight: 600 !important; 
+  }
+
+  &.v-btn--disabled {
+    background: linear-gradient(142deg, #727272 0%, #CACACA 100%);
+  }
+}
